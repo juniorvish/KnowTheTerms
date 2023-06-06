@@ -1,0 +1,40 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+/* Custom styles for KnowTheTerms app */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2563eb;
+}
+
+.output-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.summary-output,
+.safety-remark-output {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
