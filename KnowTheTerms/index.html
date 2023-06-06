@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowTheTerms</title>
+    <link rel="stylesheet" href="static/css/tailwind.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-4xl font-bold mb-6">KnowTheTerms</h1>
+        <p class="mb-4">Enter the Terms of Service URL to get a summary and safety remark:</p>
+        <input type="text" id="terms_of_service_input" class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="Enter Terms of Service URL">
+        <button id="submit_button" class="bg-blue-500 text-white px-4 py-2 rounded" onclick="submit_url()">Submit</button>
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Summary:</h2>
+            <p id="summary_output" class="bg-white p-4 border border-gray-300 rounded"></p>
+        </div>
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Safety Remark:</h2>
+            <p id="safety_remark_output" class="bg-white p-4 border border-gray-300 rounded"></p>
+        </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
